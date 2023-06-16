@@ -1,0 +1,19 @@
+body{
+  background-color: aliceblue;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 600px) {
+  body{
+      font-size: 1rem;
+  }
+}
+.border-box{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(187, 236, 220);
+  border-radius: 1rem;
+  padding: 0.1em 0.5em;
+  margin: 0.5em 0.2em;
+  cursor:pointer;
+}
+
